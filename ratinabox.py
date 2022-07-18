@@ -24,7 +24,7 @@ class Environment:
             • discretise_environment()
             • get_vectors_between___accounting_for_environment()
             • get_distances_between___accounting_for_environment()
-            • check_if_posision_is_in_environment()
+            • check_if_position_is_in_environment()
             • check_wall_collisions()
             • vectors_from_walls()
             • apply_boundary_conditions()
@@ -34,7 +34,7 @@ class Environment:
         """Initialise Environment, takes as input a parameter dictionary. Any values not provided by the params dictionary are taken from a default dictionary.
 
         Args:
-            params (dict, optional). Defaults to {}.
+            params (dict, optional). Defaults to {}, which uses default_params defined below.
         """
         default_params = {
             "dimensionality": "2D",  # 1D or 2D environment

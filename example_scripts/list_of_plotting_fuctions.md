@@ -1,6 +1,6 @@
 # List of `RatInABox` plotting functions: 
 
-In this markdown we describe teh plotting functions available with `RatInABox`. The following definitions hold: 
+In this markdown we describe the plotting functions available with `RatInABox`. The following definitions hold: 
 * `Env`: a 2D `Environment()` class with a wall and solid boundary conditions
 * `Env1D`: a 1D `Environment()` class with periodic boundary conditions
 
@@ -37,12 +37,9 @@ Plots a heatmap of the Agents past locations (2D and 1D example shown)
 
 
 
-
-
 ## `Agent.plot_histogram_of_speeds()` 
 
 <img src="../readme_figs/plotting_examples/plot_histogram_speed.svg" height="150">
-
 
 
 
